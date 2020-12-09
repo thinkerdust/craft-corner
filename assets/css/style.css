@@ -16,10 +16,10 @@ img {
 
 /* Navbar */
 nav {
-    background-color: #e5b285;
+    background-color: #d6a57a;
 }
 nav .navbar-brand img{
-    width: 17vw;
+    width: 13vw;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -149,7 +149,7 @@ nav .nav-link{
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #ffff00;
+    background: #d6a57a;
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
@@ -169,7 +169,7 @@ nav .nav-link{
   #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #ffff00;
+    background: #d6a57a;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
