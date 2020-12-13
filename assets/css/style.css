@@ -32,11 +32,55 @@ nav .nav-link{
   color: #fff;
 }
 
+nav .nav-link:hover {
+    color: #8d6440;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+/* header-image */
+.header-image{
+  margin-top: 20px;
+}
+
+.header-image img{
+  height: 80vh;
+}
+
+/* content */
+hr {
+  width: 11%;
+  border: 1px solid #d6a57a;
+}
+
+main {
+  margin: 40px 50px;
+}
+
+.offer {
+  margin: 20px 0;
+}
+
+.offer img {
+  width: 30%;
+  height: 110px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .card-img {
+  height: 450px;
+}
+
 /* Footer */
  #footer {
-    color: #444444;
+    color: #fff;
     font-size: 14px;
-    background: #f1f0f2;
+    background: #d6a57a;
   }
   
   #footer .footer-top {
@@ -46,6 +90,11 @@ nav .nav-link{
   
   #footer .footer-top .footer-contact {
     margin-bottom: 30px;
+  }
+
+  #footer .footer-brand {
+    margin-left: -10px;
+    margin-top: -23px;
   }
   
   #footer .footer-top .footer-contact h4 {
@@ -108,11 +157,12 @@ nav .nav-link{
   
   #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #ffff00;
+    color: #8d6440;
   }
   
   #footer .footer-newsletter {
     font-size: 15px;
+    color: #444444;
   }
   
   #footer .footer-newsletter h4 {
@@ -169,7 +219,7 @@ nav .nav-link{
   #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #d6a57a;
+    background: #8d6440;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
