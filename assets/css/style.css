@@ -55,6 +55,11 @@ hr {
   border: 1px solid #d6a57a;
 }
 
+#garis{
+  width: 63%;
+  border: 1px solid #d6a57a;
+}
+
 main {
   margin: 40px 50px;
 }
@@ -235,4 +240,8 @@ main {
     background: #000000;
     color: #fff;
     text-decoration: none;
+  }
+
+  .product{
+    padding-bottom: 20px;
   }
