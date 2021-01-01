@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Craft Corner</title>
+
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="assets/image/logogram.png" rel="icon">
 
@@ -9,8 +10,8 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" >
         <!-- library font-awesome -->
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
         <link rel="stylesheet" href="assets/css/style.css" >
-        
     </head>
     <body>
         <header>
@@ -26,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home </a>
+                        <a class="nav-link" href="index.html">Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Promo</a>
@@ -36,13 +37,13 @@
                         Produk
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="walldec.html">Wall Decore</a>
-                        <a class="dropdown-item" href="tote-bag.html">Tote Bag</a>
-                        <a class="dropdown-item" href="tumbler.html">Tumbler</a>
+                        <a class="dropdown-item" href="">Makanan</a>
+                        <a class="dropdown-item" href="">Minuman</a>
+                        <a class="dropdown-item" href="">Alat Rumah Tangga</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html"> <i class="fa fa-phone"></i> Hubungi Kami</a>
+                        <a class="nav-link active" href="contact.html"> <i class="fa fa-phone"></i> Hubungi Kami</a>
                     </li>
                     
                     </ul>
@@ -61,52 +62,77 @@
             </nav>
             <!-- End Navbar -->
             <div class="header-image">
-                <img src="./assets/image/header2.jpg" class="img-fluid" alt="gambar">
+                <img src="./assets/image/header.jpg" class="img-fluid" alt="gambar">
             </div>
             
         </header>
 
         <!-- content -->
         <main>
-            <div class="container-fluid">
-                <div class="offer text-center">
-                    <h2>Special From Us</h2>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-4 text-right">
-                            <img src="assets/image/price.jpg" alt="gambar">
-                            <p>Competitive Price</p>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="assets/image/online.jpg" alt="gambar">
-                            <p>Online Order</p>
-                        </div>
-                        <div class="col-md-4 text-left">
-                            <img src="assets/image/design.jpg" alt="gambar">
-                            <p>Custome As You Want</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-deck">
-                    <div class="card">
-                      <img src="assets/image/sovenir-min.jpeg" class="card-img" alt="produk">
-                      <div class="card-body">
-                        <h5 class="card-title">Wall Decore</h5>
-                        <p class="card-text">Capture your joyful moment. In our hands your special moments will not be forgotten. aesthetic and unique souvenir with competitive price.</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="assets/image/tottebag-min.jpeg" class="card-img" alt="produk">
-                      <div class="card-body">
-                        <h5 class="card-title">Chic Tote Bag</h5>
-                        <p class="card-text">Bring your stuff and styling your daily activity with this tote bag. Create your own perfect tote bag with us.</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/image/tumblr-min.jpg" class="card-img" alt="produk">
-                        <div class="card-body">
-                          <h5 class="card-title">Tumbler Collection</h5>
-                          <p class="card-text">Trendy water bottle. These Tumbler are perfect for DIY brides who want to give their guest something extra special.</p>
+            <div id="Contact">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-12">
+                            
+                                <div class="section-title">
+                                    <h1>Contact</h1>
+                                    <p>Get In Touch With Me : </p>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="info">
+                                            <div class="address">
+                                                <i class="fa fa-map-marker"></i>
+                                                <h4>Location:</h4>
+                                                <p>Jl. Gajah Raya, Gayamsari </p>
+                                                <p>Semarang, Indonesia </p>
+                                            </div>
+
+                                            <div class="email">
+                                                <i class="fa fa-envelope"></i>
+                                                <h4>Email:</h4>
+                                                <p>shop@warungku.com </p>
+                                            </div>
+
+                                            <div class="phone">
+                                                <i class="fa fa-phone"></i>
+                                                <h4>Call:</h4>
+                                                <p>(+62) 8889 7564 xxxx </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <form action="#" role="form" class="php-email-form">
+                                            <div class="form-row">
+                                                <div class="col-md-6 form-group">
+                                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                                <div class="validate"></div>
+                                                </div>
+                                                <div class="col-md-6 form-group">
+                                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                                <div class="validate"></div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                                <div class="validate"></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                                <div class="validate"></div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="loading">Loading</div>
+                                                <div class="error-message"></div>
+                                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                            </div>
+                                            <div class="text-center"><button type="submit">Send Message</button></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            
                         </div>
                     </div>
                 </div>
