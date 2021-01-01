@@ -97,7 +97,7 @@ main {
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffff00;
+  background: #8d6440;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +191,7 @@ main {
 }
 
 #Contact .php-email-form input:focus, #Contact .php-email-form textarea:focus {
-  border-color: #ffff00;
+  border-color: #8d6440;
 }
 
 #Contact .php-email-form input {
@@ -203,7 +203,7 @@ main {
 }
 
 #Contact .php-email-form button[type="submit"] {
-  background: #ffff00;
+  background: #8d6440;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
